@@ -15,5 +15,5 @@
 -->
 
 <resources>
-    <color name="background_white">@color/exposed_bg_dark</color>
-</resources> 
+  <color name="background_white">@color/exposed_bg_dark</color>
+</resources>
