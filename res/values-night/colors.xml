@@ -17,6 +17,11 @@
 
 <resources>
 
+	<!-- Orion night-mode colors -->
+	 <color name="system_primary_color">#21272b</color>
+	 <color name="system_secondary_color">#263238</color>
+	 <color name="system_accent_color">#80cbc4</color>
+
     <!-- In-call UI background color. -->
     <color name="incall_background_color">@color/dialer_theme_color</color>
     <color name="incall_accent_color">#ffffff</color>
@@ -26,7 +31,7 @@
     <color name="incall_call_banner_text_color">#ffffff</color>
     <!-- 80% opacity, white -->
     <color name="incall_call_banner_subtext_color">#ccffffff</color>
-    <color name="incall_banner_secondary_background_color">@*android:color/material_grey_850</color>
+    <color name="incall_banner_secondary_background_color">@color/system_secondary_color</color>
     <color name="incall_banner_secondary_text_color">#333333</color>
 
     <color name="incall_action_bar_background_color">@color/incall_background_color</color>
@@ -35,7 +40,7 @@
     <!-- Put on top of each photo, implying 80% darker than usual. -->
     <color name="on_hold_dim_effect">#cc000000</color>
 
-    <color name="conference_call_manager_background_color">@*android:color/material_grey_850</color>
+    <color name="conference_call_manager_background_color">@color/system_secondary_color</color>
     <color name="conference_call_manager_caller_name_text_color">#4d4d4d</color>
     <color name="conference_call_manager_icon_color">#999999</color>
     <!-- Used with some smaller texts in manage conference screen. -->
